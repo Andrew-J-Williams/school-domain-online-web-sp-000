@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    @roster[grade]
+    sorting_hash = @roster[grade]
 
   end
 
