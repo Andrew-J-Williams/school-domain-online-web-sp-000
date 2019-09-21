@@ -1,6 +1,6 @@
 # code here!
 class School
 
-  ROSTER = []
+  attr_accessor :roster
 
 end
