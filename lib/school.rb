@@ -21,11 +21,8 @@ class School
 
   def sort
     @roster.each do |key, value|
-      value.each do |names, grade|
-        grade.each do |x|
-          x
-        end
-      end
+      value.each do |names|
+      
     end
   end
 
