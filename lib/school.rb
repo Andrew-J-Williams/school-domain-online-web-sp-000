@@ -7,7 +7,7 @@ class School
   end
 
   def add_student(name, grade)
-    roster[grade] = [] unless roster.any? {|x| x == grade}
+    roster[grade] = [] unless roster.any? {|x| x == gradex}
     roster[grade] << name
   end
 
