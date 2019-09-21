@@ -20,10 +20,7 @@ class School
   end
 
   def sort
-    @roster.each do |key|
-      reorder_hash = key
-      reorder_hash.sort
-    end
+    @roster[grade]
 
   end
 
