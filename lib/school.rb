@@ -21,6 +21,7 @@ class School
 
   def sort
     sorting_hash = @roster[grade]
+    sorting_hash.sort
 
   end
 
