@@ -19,9 +19,8 @@ class School
     @roster[grade]
   end
 
-  def sort(grade)
-    sorting_hash = @roster[grade]
-    sorting_hash.sort
+  def sort
+
 
   end
 
