@@ -21,8 +21,8 @@ class School
 
   def sort
     @roster.each do |key, value|
-      reorder_hash = key[value].sort
-
+      reorder_hash = key[value]
+      reorder_hash.sort
     end
 
   end
