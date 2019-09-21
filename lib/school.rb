@@ -15,13 +15,13 @@ class School
 
   end
 
-  def grade(grade)
-    @roster[grade]
+  def grade(grade) # Fifth, create a method that accepts the grade as an argument
+    @roster[grade] # Then return the value from the hash and key. Ex. "roster[9] => ["names associated with key"]"
   end
 
-  def sort
-    @roster.each do |grade, name|
-      @roster[grade] = name.sort
+  def sort # Finally, we create a method that accepts no arguments
+    @roster.each do |grade, name| # We iterate over the hash, looking at the grade key and name value
+      @roster[grade] = name.sort # For every key of grade, we take the names associated with them and sort them alphabetically
     end
   end
 
