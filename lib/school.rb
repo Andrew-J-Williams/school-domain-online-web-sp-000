@@ -21,7 +21,7 @@ class School
 
   def sort
     @roster.each do |key, value|
-
+      reorder_hash = 
 
     end
 
